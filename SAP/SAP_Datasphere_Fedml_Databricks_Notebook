@@ -102,3 +102,19 @@ dbutils.data.summarize(df_sap_ecc_hana_vbap)
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC #### Step 10: After the EDA and ML analysis has been performed on the the dataframes. The inference result can be stored back in SAP Datasphere.
+# MAGIC #### Using create_table API call we can create a table in SAP Datasphere. 
+
+# COMMAND ----------
+
+db.create_table("CREATE TABLE DS_VBAP_INF (CUSTOMERNAME Varchar(20), PRODUCTLINE Varchar(20), STATUS Varchar(20), PRODUCTCODE Varchar(20), SALES FLOAT, Predicted_SALES FLOAT)")
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC #### Step 11: Write the prediction results to 'DS_VBAP_INF' table in SAP Datasphere
+
+# COMMAND ----------
+
+db.insert_into_table('DS_VBAP_INF', ml_output_dataframe)
