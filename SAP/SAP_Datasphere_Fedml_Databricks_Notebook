@@ -113,7 +113,7 @@ db.create_table("CREATE TABLE DS_VBAP_INF (CUSTOMERNAME Varchar(20), PRODUCTLINE
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC #### Step 11: Write the prediction results to 'DS_VBAP_INF' table in SAP Datasphere
+# MAGIC #### Step 11: Write the prediction results to 'DS_VBAP_INF' table in SAP Datasphere using insert_into_table method
 
 # COMMAND ----------
 
