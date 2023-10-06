@@ -13,4 +13,5 @@ The integration of data from SAP Datasphere with Databricks is facilitated throu
 For more information on SAP FedMl package please visit this site: https://github.com/SAP-samples/datasphere-fedml/tree/main/Databricks
 
 Other important links-
-https://github.com/SAP-samples/datasphere-fedml/blob/main/Databricks/README.md
+Getting started with SAP Datasphere: https://help.sap.com/docs/SAP_DATASPHERE
+
