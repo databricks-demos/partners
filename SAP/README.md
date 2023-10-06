@@ -13,8 +13,11 @@ The integration of data from SAP Datasphere with Databricks is facilitated throu
 For more information on SAP FedMl package please visit this site: https://github.com/SAP-samples/datasphere-fedml/tree/main/Databricks
 
 Other important links-
-Getting started with SAP Datasphere: https://help.sap.com/docs/SAP_DATASPHERE
+Getting started with SAP Datasphere: 
+https://help.sap.com/docs/SAP_DATASPHERE
 
-Using FedML library with SAP Datasphere and Databricks: https://blogs.sap.com/2023/05/03/using-fedml-library-with-sap-datasphere-and-databricks/
+Using FedML library with SAP Datasphere and Databricks: 
+https://blogs.sap.com/2023/05/03/using-fedml-library-with-sap-datasphere-and-databricks/
 
-Unified Analytics with SAP Datasphere & Databricks Lakehouse Platform- Data Federation Scenarios: https://blogs.sap.com/2023/03/10/unified-analytics-with-sap-datasphere-databricks-lakehouse-platform-data-federation-scenarios/
+Unified Analytics with SAP Datasphere & Databricks Lakehouse Platform- Data Federation Scenarios: 
+https://blogs.sap.com/2023/03/10/unified-analytics-with-sap-datasphere-databricks-lakehouse-platform-data-federation-scenarios/
